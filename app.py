@@ -169,7 +169,8 @@ class MentalHealthEngine(KnowledgeEngine):
         text = free.lower()
         keywords = [
             "panic", "panic attack", "hopeless", "no point",
-            "kill myself", "suicide", "overwhelmed"
+            "kill myself", "suicide", "overwhelmed", "killing myself", 
+            "self harm", "anxiety attack", "die", "death"
         ]
 
         for k in keywords:
